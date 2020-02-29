@@ -17,7 +17,7 @@ To start the application run: npm run prod.
 
 ![alt text][screenshot]
 
-[screenshot]: https://github.com/Kina-rain/master/blob/employee/screenshot.png "Employee App Project"
+[screenshot]: https://github.com/Kina-rain/employee/blob/master/screenshot.png "Employee App Project"
 
 ## References
 
