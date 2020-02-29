@@ -1,0 +1,29 @@
+{
+  "name": "emp-directory",
+  "version": "1.0.0",
+  "description": "Employee Directory React App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix employee",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kina-rain/emp-directory.git"
+  },
+  "author": "Tina Lawrence",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kina-rain/emp-directory/issues"
+  },
+  "homepage": "https://github.com/Kina-rain/emp-directory#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
