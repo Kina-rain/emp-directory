@@ -4,10 +4,12 @@
   "description": "Employee Directory React App",
   "main": "server.js",
   "scripts": {
+    "client-install": "cd employee && npm install",
+    "server-install": "npm install",
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix employee",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "prod": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",

@@ -18,12 +18,9 @@ class Employees extends Component {
 
 
     return (
-        <>
-        <div className="jumbotron text-center">
-            <h1>Employee Data</h1>
-        </div>
         <div className="container mt-4">
-            <table className="table">
+            <input className="form-control" type="text" id="myInput" placeholder="Search.."></input>
+            <table className="table sortable mt-3" id="myTable">
                 <thead>
                     <tr>
                         <th>First Name</th>
@@ -60,7 +57,6 @@ class Employees extends Component {
                 </tbody>
             </table>
         </div>
-        </>
     );
     }
 }
