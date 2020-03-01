@@ -15,13 +15,11 @@ class Employees extends Component {
     }
 
     render(){
-
-
     return (
         <div className="container mt-4">
-            <input className="form-control" type="text" id="myInput" placeholder="Search.."></input>
-            <table className="table sortable mt-3" id="myTable">
-                <thead>
+            <input className="form-control light-table-filter" data-table="order-table" type="text" id="myInput" placeholder="Search.."></input>
+            <table className="order-table table sortable mt-3" id="myTable">
+                <thead className="tHead">
                     <tr>
                         <th>First Name</th>
                         <th>Last Name</th>
