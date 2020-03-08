@@ -1,3 +1,5 @@
+// code found on https://css-tricks.com/complete-guide-table-element/
+
 (function (document) {
   'use strict';
 

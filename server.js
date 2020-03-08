@@ -6,7 +6,8 @@ app.get("/api/employees", (req, res) => {
     const employees = [
         {id: 1, firstName: "John", lastName: "Doe", title: "Manager", salary: 50000, manager: "", department: "Development"},
         {id: 2, firstName: "Jane", lastName: "Snow", title: "QA Tester", salary: 60000, manager: "John Doe", department: "Development"},
-        {id: 3, firstName: "Sam", lastName: "Smith", title: "Software Engineer", salary: 80000, manager: "John Doe", department: "Development"}
+        {id: 3, firstName: "Sam", lastName: "Smith", title: "Software Engineer", salary: 80000, manager: "John Doe", department: "Development"},
+        {id: 4, firstName: "Sandy", lastName: "Ward", title: "Product Design", salary: 60000, manager: "John Doe", department: "Marketing"}
     ];
 
     res.json(employees);
