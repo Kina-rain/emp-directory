@@ -6,10 +6,11 @@
   "scripts": {
     "client-install": "cd employee && npm install",
     "server-install": "npm install",
-    "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon server.js",
     "client": "npm start --prefix employee",
-    "prod": "concurrently \"npm run server\" \"npm run client\""
+    "prod": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild" : "cd employee && npm install && npm run build"
   },
   "repository": {
     "type": "git",
