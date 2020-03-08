@@ -9,8 +9,8 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix employee",
     "prod": "concurrently \"npm run server\" \"npm run client\"",
-    "start": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild" : "cd employee && npm install && npm run build"
+    "start": "node server.js",
+    "heroku-postbuild" : "cd employee && npm install && npm run build && npm start"
   },
   "repository": {
     "type": "git",
